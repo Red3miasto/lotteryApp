@@ -12,6 +12,18 @@ Over time, the code will evolve so that more people can enjoy the benefits of us
 
 At this stage, the application logic assumes an administrator who adds users and sets their passwords, with the goal of minimising the amount of user data stored on the server.
 
+
+
+---
+## Quick start
+
+
+1. Copy the `config/config.example.php` file to `config/config.php` and fill in the real database details.
+
+2. Ensure that the `/public/images/` folder contains the `in.jpg` and `out.jpg` files.
+
+3. The application starts from `/public/index.php`.
+   
 ---
 
 ## Security Standards Implemented
