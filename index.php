@@ -76,7 +76,7 @@ if ($page == 'login' && !isLoggedIn() && $_SERVER['REQUEST_METHOD'] === 'POST') 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Santa App</title>
     <style>
-        /* ========== CSS ZGODNIE Z TWOIM KODEM ========== */
+        /* ========== CSS  ========== */
         *{margin:0;padding:0;box-sizing:border-box;}
         body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px;}
         .container{background:white;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,0.3);padding:40px;max-width:500px;width:100%;position:relative;background-size:cover;background-position:center;background-repeat:no-repeat;}
